@@ -79,7 +79,7 @@ export default {
 				description: this.postBody,
 				additional: this.feedBody,
 			}
-			let repoUrl = new URL(`https://github.com/IceWhaleTech/CasaOS/issues/new`);
+			let repoUrl = new URL(``);
 			for (const optionElement in option) {
 				repoUrl.searchParams.set(optionElement, option[optionElement]);
 			}
